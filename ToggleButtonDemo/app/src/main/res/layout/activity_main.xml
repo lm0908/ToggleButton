@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:toggle="http://schemas.android.com/apk/res-auto"
+  android:orientation="vertical"
+   >
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <com.example.ekikousei.view.ToggleButton
+            android:id="@+id/mToggleButton01"
+            android:layout_width="54dp"
+            android:layout_height="30dp">
+        </com.example.ekikousei.view.ToggleButton>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <com.example.ekikousei.view.ToggleButton
+            android:id="@+id/mToggleButton02"
+            android:layout_width="54dp"
+            android:layout_height="30dp"
+            toggle:tbBorderWidth="2dp"
+            toggle:tbOffBorderColor="#000"
+            toggle:tbOffColor="#ddd"
+            toggle:tbOnColor="#f00"
+            toggle:tbSpotColor="#00f">
+        </com.example.ekikousei.view.ToggleButton>
+
+    </LinearLayout>
+</LinearLayout>
